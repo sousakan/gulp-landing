@@ -103,8 +103,8 @@ function watchFiles()
 {
     watch(path.watch.html, html)
     watch(path.watch.css, css)
-    watch(path.watch.js, scripts)
-    //watch(path.watch.img, images)
+    //watch(path.watch.js, scripts)
+    watch(path.watch.img, images)
 }
 
 function clear()
